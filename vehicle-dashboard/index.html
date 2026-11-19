@@ -4,15 +4,15 @@
   "meta": {
     "title": "DMV Vehicle Radar",
     "subtitle": "Daily Car Dealer Scan, up to 50 miles from ZIP 20019",
-    "runDate": "2026-11-18",
-    "asOf": "CarGurus individual listing records checked November 18, 2026; seller stock, independent title and PPI unconfirmed",
-    "sourceLabel": "Direct individual listing records verified, dealer/Craigslist/Notion coverage incomplete"
+    "runDate": "2026-11-19",
+    "asOf": "Partial November 19 review, CarGurus connector HTTP 406, previous listing URLs inaccessible; seller stock/title not confirmed",
+    "sourceLabel": "One recently crawled individual RAV4 listing, previous leads not reverified"
   },
   "notes": {
-    "dayRule": "Compared against 2026-11-17 dashboard by same listing ID, VIN, and fee-inclusive price. Quiet 0-1 changed sections, Normal 2-3, Busy 4+.",
+    "dayRule": "Compared against November 18, no same-VIN price changes verified; status Moved reflects verification loss",
     "statusRule": "Moved means verified lineup or price/fee differences from the previous dashboard, not merely first-time population. Quiet means no meaningful verified change.",
     "dateRule": "Dates are planning holds, not seller deadlines. Countdowns use your device's local date and passed dates are hidden.",
-    "qualityRule": "All prices before tax/title/tag. Marketplace history is not independent title verification. No seller confirmations, PPIs, certified cars or Notion writes.",
+    "qualityRule": "Partial scan only. No seller-confirmed listings, clean title, PPI, CPO or Notion writes. Previous prices are historical.",
     "thresholds": {
       "quietMax": 1,
       "normalMax": 3
@@ -21,8 +21,8 @@
   },
   "metrics": [
     {
-      "label": "Review candidates",
-      "value": "8"
+      "label": "Provisional current leads",
+      "value": "1"
     },
     {
       "label": "Cash buys cleared",
@@ -35,15 +35,15 @@
   ],
   "holds": [
     {
-      "date": "2026-11-19",
-      "label": "Request written buyer orders",
-      "detail": "Confirm VIN, dealer fees, maintenance, availability and PPI permission.",
-      "url": "https://www.cargurus.com/details/459383255?pid=ChatGPTApp"
+      "date": "2026-11-20",
+      "label": "Verify VIN and seller",
+      "detail": "Request written buyer orders, title and history, onsite stock and PPI permission.",
+      "url": "https://signup.cargurus.com/details/462943004"
     },
     {
       "date": "2026-11-21",
-      "label": "Saturday inspection window",
-      "detail": "Provisional visits only, confirm seller addresses and appointments first.",
+      "label": "Saturday visits conditional",
+      "detail": "No confirmed route or appointments; historical Notion stops not reverified.",
       "url": "https://www.notion.so/3c8f5cf121bb8111a489e50bd8970b35"
     }
   ],
@@ -52,47 +52,33 @@
       "id": "tier-1",
       "title": "Tier 1. Most Desirable",
       "status": "Moved",
-      "lead": "Newly screened 2013 Highlander FWD and low-mileage 2011 CR-V challenge older Highlander Hybrid. Alexandria RAV4 remains the strongest Toyota.",
+      "lead": "Chantilly RAV4 has a recently crawled listing, previous leading vehicles could not be reverified.",
       "source": {
-        "label": "Top RAV4",
-        "url": "https://www.cargurus.com/details/459383255?pid=ChatGPTApp"
+        "label": "RAV4 listing",
+        "url": "https://signup.cargurus.com/details/462943004"
       },
       "rows": [
         {
-          "label": "2012 Toyota RAV4 Base 4WD, Alexandria",
-          "value": "$8,700 advertised + $395 fees = $9,095 before tax/title/tag. 113,750 mi. 8.3/10.",
-          "detail": "VIN 2T3BF4DV1CW258676. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Water pump, 4WD drivetrain, suspension and rust. Negotiation target $8,400-$8,700 fee-inclusive. Original source CarGurus.",
+          "label": "2012 Toyota RAV4 Base 4WD, Chantilly",
+          "value": "$9,794 displayed fee-inclusive, 133,870 miles, provisional 7.4/10",
+          "detail": "2.5L I4, 4-speed automatic 4WD, cargo High. Heated seats Unknown. Certification not verified. VIN, title, owner/accident history, seller name, stock and additional fees unconfirmed. PPI water pump, oil consumption, AWD, rust. Conditional negotiation target $9,000-$9,300 total.",
+          "url": "https://signup.cargurus.com/details/462943004"
+        },
+        {
+          "label": "2012 Toyota RAV4 Base 4WD, Alexandria, historical",
+          "value": "November 18 $8,700 + $395 = $9,095, 113,750 miles, previous 8.3/10",
+          "detail": "VIN 2T3BF4DV1CW258676, automatic 4WD, cargo High, heated seats Unknown, Not Certified previously. Current listing inaccessible. Not a live verified offer; inspect water pump, 4WD and rust.",
           "url": "https://www.cargurus.com/details/459383255?pid=ChatGPTApp"
-        },
-        {
-          "label": "2011 Honda CR-V SE AWD, Germantown",
-          "value": "$9,195 advertised + $800 fees = $9,995 before tax/title/tag. 114,672 mi. 7.9/10.",
-          "detail": "VIN 5J6RE4H45BL005679. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: AWD differential, A/C compressor, engine mounts, corrosion. Negotiation target $9,200-$9,500 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/463828926?pid=ChatGPTApp"
-        },
-        {
-          "label": "2013 Toyota Highlander FWD, Fairfax",
-          "value": "$8,811 advertised + $989 fees = $9,800 before tax/title/tag. 148,371 mi. 7.6/10.",
-          "detail": "VIN 5TDZA3EH7DS036081. 6 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Six-owner history, engine leaks, transmission shifts, suspension and documented maintenance. Negotiation target $8,900-$9,300 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/456172039?pid=ChatGPTApp"
         }
       ],
       "chart": {
-        "title": "Fee-inclusive prices against $10,000 cap",
+        "title": "Recently crawled lead against $10,000 cap",
         "limit": 10000,
         "unit": "$",
         "bars": [
           {
-            "label": "2012 Toyota RAV4 Base 4WD",
-            "value": 9095
-          },
-          {
-            "label": "2011 Honda CR-V SE AWD",
-            "value": 9995
-          },
-          {
-            "label": "2013 Toyota Highlander FWD",
-            "value": 9800
+            "label": "Chantilly RAV4 provisional",
+            "value": 9794
           }
         ]
       }
@@ -101,165 +87,89 @@
       "id": "tier-2",
       "title": "Tier 2. Most Practical",
       "status": "Moved",
-      "lead": "Alexandria CR-V dropped another $100 to $6,594 fee-inclusive. Other two prices unchanged.",
+      "lead": "No prior Tier 2 individual listing could be verified today. These are November 18 reference prices, not current quotes.",
       "source": {
-        "label": "CR-V price reduction",
+        "label": "Historical CR-V",
         "url": "https://www.cargurus.com/details/459665864?pid=ChatGPTApp"
       },
       "rows": [
         {
-          "label": "2013 Honda CR-V EX-L AWD, Alexandria",
-          "value": "$5,095 advertised + $1,499 fees = $6,594 before tax/title/tag. 178,210 mi. 7.6/10.",
-          "detail": "VIN 5J6RM4H79DL037938. 2 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Yes. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: VTC rattle, oil consumption, AWD, excessive documentation fee. Negotiation target $5,800-$6,200 fee-inclusive. Original source CarGurus.",
+          "label": "2013 Honda CR-V EX-L AWD, Alexandria, historical",
+          "value": "Nov 18 $5,095 + $1,499 = $6,594, 178,210 mi, prior 7.6/10",
+          "detail": "VIN 5J6RM4H79DL037938, automatic AWD, cargo High, heated seats Yes, Not Certified previously. Listing inaccessible today. PPI VTC rattle, oil consumption, AWD. Previous negotiation target $5,800-$6,200 total.",
           "url": "https://www.cargurus.com/details/459665864?pid=ChatGPTApp"
         },
         {
-          "label": "2009 Lexus RX 350 AWD, Arlington",
-          "value": "$5,981 advertised + $395 fees = $6,376 before tax/title/tag. 184,040 mi. 7.5/10.",
-          "detail": "VIN 2T2HK31U99C124573. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Oil cooler lines, water pump, steering rack. Negotiation target $5,800-$6,100 fee-inclusive. Original source CarGurus.",
+          "label": "2009 Lexus RX 350 AWD, Arlington, historical",
+          "value": "Nov 18 $5,981 + $395 = $6,376, 184,040 mi, prior 7.5/10",
+          "detail": "VIN 2T2HK31U99C124573, 5-speed automatic AWD, cargo High, heated seats Unknown, Not Certified previously. Listing inaccessible. PPI oil lines, water pump, steering rack.",
           "url": "https://www.cargurus.com/details/458727174?pid=ChatGPTApp"
         },
         {
-          "label": "2012 Toyota RAV4 Base FWD, Vienna",
-          "value": "$6,000 advertised + $995 fees = $6,995 before tax/title/tag. 187,385 mi. 7.4/10.",
-          "detail": "VIN 2T3ZF4DV2CW127433. 2 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Oil use, water pump, suspension, $995 documentation fee. Negotiation target $6,200-$6,500 fee-inclusive. Original source CarGurus.",
+          "label": "2012 Toyota RAV4 Base FWD, Vienna, historical",
+          "value": "Nov 18 $6,000 + $995 = $6,995, 187,385 mi, prior 7.4/10",
+          "detail": "VIN 2T3ZF4DV2CW127433, automatic FWD, cargo High, heated seats Unknown, Not Certified previously. Listing inaccessible. PPI oil use, water pump, suspension.",
           "url": "https://www.cargurus.com/details/461837442?pid=ChatGPTApp"
         }
-      ],
-      "chart": {
-        "title": "Fee-inclusive prices against $7,000 cap",
-        "limit": 7000,
-        "unit": "$",
-        "bars": [
-          {
-            "label": "2013 Honda CR-V EX-L AWD",
-            "value": 6594
-          },
-          {
-            "label": "2009 Lexus RX 350 AWD",
-            "value": 6376
-          },
-          {
-            "label": "2012 Toyota RAV4 Base FWD",
-            "value": 6995
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "tier-3",
       "title": "Tier 3. Most Affordable",
       "status": "Quiet",
-      "lead": "No cash-tier car cleared. Scion xB has 204,801 miles and manual gearbox; older RX requires timing-belt proof.",
+      "lead": "No verified cash-tier vehicle cleared live listing, title, fee and mechanical standards.",
       "source": {
-        "label": "Inspect screened Scion listing",
+        "label": "Previous Scion screening",
         "url": "https://www.cargurus.com/details/430418426?pid=ChatGPTApp"
       },
       "rows": [
         {
           "label": "2010 Scion xB, Jessup, screening only",
-          "value": "$4,500 + $500 fee = $5,000. 204,801 mi.",
-          "detail": "VIN JTLZE4FE1A1116875. 4 owners, 0 reported accidents, 5-speed manual, heated seats Unknown. Not Certified. Cargo High. PPI: oil consumption, clutch, rust. Target $3,500-$4,000 total; not cleared.",
+          "value": "Prior $4,500 + $500 fee = $5,000, 204,801 miles",
+          "detail": "Manual, cargo High, heated seats Unknown, Not Certified previously. PPI oil consumption, clutch, rust. Not reverified or purchase-cleared.",
           "url": "https://www.cargurus.com/details/430418426?pid=ChatGPTApp"
-        },
-        {
-          "label": "2005 Lexus RX 330 AWD, Woodbridge, screening only",
-          "value": "$3,875 listed fee-inclusive, verify any omitted fees. 171,517 mi.",
-          "detail": "VIN 2T2HA31U25C044223. 3 owners, 0 reported accidents, 5-speed automatic, heated seats Unknown. Not Certified. Cargo High. PPI: timing belt proof, transmission, leaks. Not cleared.",
-          "url": "https://www.cargurus.com/details/462321580?pid=ChatGPTApp"
         }
-      ],
-      "chart": {
-        "title": "Screened cash-tier prices against $5,000 cap",
-        "limit": 5000,
-        "unit": "$",
-        "bars": [
-          {
-            "label": "2010 Scion xB",
-            "value": 5000
-          },
-          {
-            "label": "2005 Lexus RX",
-            "value": 3875
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "best-5",
       "title": "Best 5 Overall",
       "status": "Moved",
-      "lead": "Alexandria RAV4 still leads. Newly screened Germantown CR-V and Fairfax Highlander FWD enter consideration. No Subaru.",
+      "lead": "Live Top 5 suspended, verification insufficient. November 18 rankings are historical leads only.",
       "source": {
-        "label": "Leading RAV4",
-        "url": "https://www.cargurus.com/details/459383255?pid=ChatGPTApp"
+        "label": "Current provisional RAV4",
+        "url": "https://signup.cargurus.com/details/462943004"
       },
       "rows": [
         {
-          "label": "1. 2012 Toyota RAV4 Base 4WD, Alexandria",
-          "value": "$8,700 advertised + $395 fees = $9,095 before tax/title/tag. 113,750 mi. 8.3/10.",
-          "detail": "VIN 2T3BF4DV1CW258676. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Water pump, 4WD drivetrain, suspension and rust. Negotiation target $8,400-$8,700 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/459383255?pid=ChatGPTApp"
+          "label": "Provisional research lead: Chantilly RAV4",
+          "value": "$9,794 shown fee-inclusive, 133,870 mi, 7.4/10",
+          "detail": "No independently verified title or seller-stock confirmation. Do not schedule a purchase visit.",
+          "url": "https://signup.cargurus.com/details/462943004"
         },
         {
-          "label": "2. 2011 Honda CR-V SE AWD, Germantown",
-          "value": "$9,195 advertised + $800 fees = $9,995 before tax/title/tag. 114,672 mi. 7.9/10.",
-          "detail": "VIN 5J6RE4H45BL005679. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: AWD differential, A/C compressor, engine mounts, corrosion. Negotiation target $9,200-$9,500 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/463828926?pid=ChatGPTApp"
-        },
-        {
-          "label": "3. 2013 Honda CR-V EX-L AWD, Alexandria",
-          "value": "$5,095 advertised + $1,499 fees = $6,594 before tax/title/tag. 178,210 mi. 7.6/10.",
-          "detail": "VIN 5J6RM4H79DL037938. 2 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Yes. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: VTC rattle, oil consumption, AWD, excessive documentation fee. Negotiation target $5,800-$6,200 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/459665864?pid=ChatGPTApp"
-        },
-        {
-          "label": "4. 2009 Lexus RX 350 AWD, Arlington",
-          "value": "$5,981 advertised + $395 fees = $6,376 before tax/title/tag. 184,040 mi. 7.5/10.",
-          "detail": "VIN 2T2HK31U99C124573. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Oil cooler lines, water pump, steering rack. Negotiation target $5,800-$6,100 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/458727174?pid=ChatGPTApp"
-        },
-        {
-          "label": "5. 2013 Toyota Highlander FWD, Fairfax",
-          "value": "$8,811 advertised + $989 fees = $9,800 before tax/title/tag. 148,371 mi. 7.6/10.",
-          "detail": "VIN 5TDZA3EH7DS036081. 6 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Six-owner history, engine leaks, transmission shifts, suspension and documented maintenance. Negotiation target $8,900-$9,300 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/456172039?pid=ChatGPTApp"
+          "label": "Historical November 18 Top 5",
+          "value": "Alexandria RAV4, Germantown CR-V, Alexandria CR-V, Arlington RX, Fairfax Highlander",
+          "detail": "Previous ranking not reverified. Do not treat prices as current.",
+          "url": "https://github.com/AlphaLewis/ChatGPT/blob/main/vehicle-dashboard/reports/2026-11-18.md"
         }
       ]
     },
     {
       "id": "saturday-window",
       "title": "Saturday Window Shop",
-      "status": "Quiet",
-      "lead": "Provisional Alexandria, Arlington, Fairfax visits. Notion Saturday page not updated; addresses and seller stock still require confirmation.",
+      "status": "Moved",
+      "lead": "No confirmed Saturday November 21 stops, Notion page contains older prices and unconfirmed addresses.",
       "source": {
         "label": "Saturday Notion page",
         "url": "https://www.notion.so/3c8f5cf121bb8111a489e50bd8970b35"
       },
       "rows": [
         {
-          "label": "2012 Toyota RAV4 Base 4WD, Alexandria",
-          "value": "$8,700 advertised + $395 fees = $9,095 before tax/title/tag. 113,750 mi. 8.3/10.",
-          "detail": "VIN 2T3BF4DV1CW258676. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Water pump, 4WD drivetrain, suspension and rust. Negotiation target $8,400-$8,700 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/459383255?pid=ChatGPTApp"
-        },
-        {
-          "label": "2013 Honda CR-V EX-L AWD, Alexandria",
-          "value": "$5,095 advertised + $1,499 fees = $6,594 before tax/title/tag. 178,210 mi. 7.6/10.",
-          "detail": "VIN 5J6RM4H79DL037938. 2 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Yes. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: VTC rattle, oil consumption, AWD, excessive documentation fee. Negotiation target $5,800-$6,200 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/459665864?pid=ChatGPTApp"
-        },
-        {
-          "label": "2009 Lexus RX 350 AWD, Arlington",
-          "value": "$5,981 advertised + $395 fees = $6,376 before tax/title/tag. 184,040 mi. 7.5/10.",
-          "detail": "VIN 2T2HK31U99C124573. 1 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Oil cooler lines, water pump, steering rack. Negotiation target $5,800-$6,100 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/458727174?pid=ChatGPTApp"
-        },
-        {
-          "label": "2013 Toyota Highlander FWD, Fairfax",
-          "value": "$8,811 advertised + $989 fees = $9,800 before tax/title/tag. 148,371 mi. 7.6/10.",
-          "detail": "VIN 5TDZA3EH7DS036081. 6 owners, 0 reported accidents; marketplace history only, independent title check outstanding. Heated seats Unknown. Not Certified. Automatic SUV, high cargo fit. Risk/PPI: Six-owner history, engine leaks, transmission shifts, suspension and documented maintenance. Negotiation target $8,900-$9,300 fee-inclusive. Original source CarGurus.",
-          "url": "https://www.cargurus.com/details/456172039?pid=ChatGPTApp"
+          "label": "No confirmed route",
+          "value": "Call sellers before travel",
+          "detail": "Request VIN, exact address, clean title, written fee-inclusive buyer order, stock and PPI permission. Chantilly RAV4 only a phone inquiry.",
+          "url": "https://signup.cargurus.com/details/462943004"
         }
       ]
     },
@@ -267,48 +177,36 @@
       "id": "daily-changes",
       "title": "Daily Changes",
       "status": "Moved",
-      "lead": "CR-V fell another $100; newly screened Highlander FWD and Germantown CR-V. No verified CPO, Craigslist, or Notion changes.",
+      "lead": "Verification gap, not confirmed sale or price movement. CarGurus connector returned HTTP 406.",
       "source": {
-        "label": "CR-V listing",
-        "url": "https://www.cargurus.com/details/459665864?pid=ChatGPTApp"
+        "label": "November 19 report",
+        "url": "https://github.com/AlphaLewis/ChatGPT/blob/main/vehicle-dashboard/reports/2026-11-19.md"
       },
       "rows": [
         {
-          "label": "Same-VIN price drop, Alexandria CR-V",
-          "value": "$5,195 to $5,095 advertised; $6,694 to $6,594 fee-inclusive, down $100.",
-          "detail": "VIN 5J6RM4H79DL037938, documentation fee still $1,499.",
-          "url": "https://www.cargurus.com/details/459665864?pid=ChatGPTApp"
+          "label": "Chantilly RAV4",
+          "value": "$9,794 currently displayed, $10,794 former price shown",
+          "detail": "Timing of marketplace markdown unknown, not a verified November 19 same-VIN reduction.",
+          "url": "https://signup.cargurus.com/details/462943004"
         },
         {
-          "label": "Newly screened, 2013 Highlander FWD",
-          "value": "$9,800, 148,371 miles, six reported owners.",
-          "detail": "New to this scan, not proven newly posted. Inspect history carefully.",
-          "url": "https://www.cargurus.com/details/456172039?pid=ChatGPTApp"
+          "label": "Prior listings inaccessible",
+          "value": "Not confirmed sold",
+          "detail": "No new qualified Craigslist or CPO car; prior CarGurus URLs inaccessible. No confirmed dealer watchlist additions.",
+          "url": "https://github.com/AlphaLewis/ChatGPT/blob/main/vehicle-dashboard/reports/2026-11-19.md"
         },
         {
-          "label": "Newly screened, 2011 CR-V SE AWD",
-          "value": "$9,995, 114,672 miles, one reported owner.",
-          "detail": "New to this scan, not proven newly posted. Heated seats Unknown.",
-          "url": "https://www.cargurus.com/details/463828926?pid=ChatGPTApp"
-        },
-        {
-          "label": "Contact first",
-          "value": "Alexandria RAV4, Alexandria CR-V, Germantown CR-V.",
-          "detail": "Request complete buyer order, VIN history, onsite stock and PPI permission.",
-          "url": "https://www.cargurus.com/details/459383255?pid=ChatGPTApp"
-        },
-        {
-          "label": "Craigslist, CPO and Notion",
-          "value": "No newly qualified Craigslist or certified car verified; no Notion changes made.",
-          "detail": "Dealer watchlist and Craigslist cross-check incomplete, no invented changes.",
-          "url": "https://www.notion.so/859ded5296184653910dec53774e38f3"
+          "label": "Notion review",
+          "value": "0 records added, 0 updated, Saturday unchanged",
+          "detail": "No candidate cleared the complete verification standard. No seller-confirmed visits.",
+          "url": "https://www.notion.so/3c8f5cf121bb8111a489e50bd8970b35"
         }
       ]
     }
   ],
   "footer": {
-    "label": "Read the complete November 18 research report",
-    "url": "https://github.com/AlphaLewis/ChatGPT/blob/main/vehicle-dashboard/reports/2026-11-18.md"
+    "label": "Read November 19 evidence-limited report",
+    "url": "https://github.com/AlphaLewis/ChatGPT/blob/main/vehicle-dashboard/reports/2026-11-19.md"
   }
 }
 </script><script>(function(){'use strict';const D=JSON.parse(document.getElementById('board-data').textContent),byId=x=>document.getElementById(x),make=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=String(txt);return el},link=(label,url,cls)=>{const a=make('a',cls,label);if(/^https:\/\//.test(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer'}return a},cash=n=>'$'+Number(n).toLocaleString('en-US'),localDay=()=>{const d=new Date();return new Date(d.getFullYear(),d.getMonth(),d.getDate())};document.title=D.meta.title+' | '+D.meta.runDate;byId('eyebrow').textContent=D.meta.asOf;byId('title').textContent=D.meta.title;byId('subtitle').textContent=D.meta.subtitle;byId('run-date').textContent=D.meta.runDate;const moved=D.sections.filter(s=>s.status==='Moved').length;byId('day-label').textContent=!D.notes.comparisonAvailable?'Quiet':moved<=D.notes.thresholds.quietMax?'Quiet':moved<=D.notes.thresholds.normalMax?'Normal':'Busy';byId('data-quality').textContent=D.meta.sourceLabel;D.metrics.forEach(m=>{const box=make('div','metric');box.append(make('b','',m.value),make('span','',m.label));byId('metrics').append(box)});const topFive=D.sections.find(s=>s.id==='best-5');if(topFive){topFive.rows.slice(0,3).forEach((r,i)=>{const a=link('',r.url,'spot-card');a.append(make('span','spot-rank','Priority '+(i+1)),make('strong','spot-name',r.label.replace(/^\d+\.\s*/,'')),make('span','spot-detail',r.value));byId('spot-grid').append(a)})}const today=localDay();let liveHolds=0;D.holds.forEach(h=>{const [y,m,d]=h.date.split('-').map(Number);const target=new Date(y,m-1,d);const days=Math.round((target-today)/86400000);if(days<0)return;liveHolds++;const a=link('',h.url,'datebox'+(days<=7?' urgent':''));const c=make('div','countdown',days===0?'Today':days+'d'),txt=make('div');txt.append(make('strong','',h.label),make('span','subtle',h.date+' · '+h.detail));a.append(c,txt);byId('date-rail').append(a)});if(!liveHolds)byId('date-rail').append(make('p','subtle','No upcoming planning holds'));byId('section-total').textContent=D.sections.length+' report sections';let onlyMoved=false;const draw=()=>{const target=byId('cards');target.replaceChildren();const shown=D.sections.filter(s=>!onlyMoved||s.status==='Moved');if(!shown.length){target.append(make('p','subtle','No sections have verified changes in this baseline. Future runs will compare against previous findings.'));return;}D.sections.filter(s=>!onlyMoved||s.status==='Moved').forEach(s=>{const article=make('article','card');article.id=s.id;const head=make('div','cardhead');head.append(make('h3','',s.title),make('span','chip'+(s.status==='Quiet'?' quiet':''),s.status));article.append(head,make('p','lead',s.lead),link(s.source.label,s.source.url,'card-source'));const rows=make('div','rows');s.rows.forEach(r=>{const a=link('',r.url,'item');a.append(make('strong','',r.label),make('span','value',r.value));if(r.detail)a.append(make('span','detail',r.detail));rows.append(a)});article.append(rows);if(s.chart){const chart=make('div','bar-chart');chart.append(make('h4','',s.chart.title));s.chart.bars.forEach(b=>{const row=make('div','barline'),track=make('div','bartrack'),fill=make('div','barfill');fill.style.width=Math.min(100,100*b.value/s.chart.limit)+'%';track.append(fill);row.append(make('span','barlabel',b.label),track,make('span','barvalue',s.chart.unit==='$'?cash(b.value):b.value));chart.append(row)});article.append(chart)}target.append(article)})};byId('filter').addEventListener('click',()=>{onlyMoved=!onlyMoved;byId('filter').setAttribute('aria-pressed',String(onlyMoved));byId('filter').textContent=onlyMoved?'Show all sections':'Only moved';draw()});byId('date-note').textContent=D.notes.dateRule;byId('day-rule').textContent=D.notes.dayRule;byId('status-rule').textContent=D.notes.statusRule;byId('quality-rule').textContent=D.notes.qualityRule;const foot=link(D.footer.label,D.footer.url);byId('footer-link').append(foot);draw()})();</script></body></html>
