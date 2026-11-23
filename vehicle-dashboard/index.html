@@ -1,17 +1,18 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>DMV Vehicle Radar</title><style>:root{color-scheme:light dark;--bg:#f4f7f8;--fg:#14242c;--muted:#60727b;--surface:#ffffff;--line:#dce5e7;--accent:#137b73;--deep:#193a45;--soft:#e6f5f2;--alert:#b95b22;--alert-bg:#fff1e5;--quiet:#6c7981;--track:#e5eeee;--shadow:0 12px 38px rgba(15,52,59,.06)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.47 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:inherit}main{max-width:1130px;margin:auto;padding:24px 20px 55px}.mast{background:var(--deep);color:white;border-radius:22px;padding:28px 30px;display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#b5d6d7;font-weight:800}.mast h1{font-size:clamp(26px,4vw,42px);line-height:1.05;margin:7px 0 9px;letter-spacing:-.04em}.mast p{margin:0;color:#c9dddf;max-width:560px}.stamp{text-align:right;min-width:170px}.stamp time{display:block;font-size:14px;font-weight:750;margin-bottom:11px}.day{display:inline-flex;border-radius:999px;padding:5px 14px;background:#dff6ec;color:#135d51;font-weight:800;letter-spacing:.02em}.subtle{font-size:12px;color:var(--muted)}.mast .subtle{color:#b6cfd2}.metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:16px 0 24px}.metric{background:var(--surface);padding:17px 19px;border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow)}.metric b{font-size:30px;font-weight:820;line-height:1.1;display:block;letter-spacing:-.035em}.metric span{font-size:12px;color:var(--muted);font-weight:650}.section-top{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:24px 0 12px}.section-top h2{margin:0;font-size:17px;letter-spacing:-.02em}.rail{display:flex;gap:11px;flex-wrap:wrap}.datebox{display:flex;flex:1;min-width:210px;gap:11px;align-items:center;border:1px solid var(--line);background:var(--surface);padding:13px;border-radius:15px;text-decoration:none}.datebox.urgent{border-color:#e0a06b;background:var(--alert-bg)}.countdown{font-size:20px;font-weight:850;min-width:56px;text-align:center;color:var(--accent)}.datebox.urgent .countdown{color:var(--alert)}.datebox strong{display:block;font-size:13px}.datebox .subtle{display:block}.controlbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:26px 0 12px}.controlbar h2{font-size:18px;margin:0}.filter{border:1px solid var(--accent);background:var(--surface);color:var(--accent);padding:9px 13px;border-radius:999px;font:inherit;font-weight:800;cursor:pointer}.filter[aria-pressed=true]{background:var(--accent);color:white}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow);min-width:0}.cardhead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.card h3{font-size:17px;line-height:1.25;letter-spacing:-.03em;margin:0}.chip{border-radius:999px;flex-shrink:0;padding:4px 9px;font-size:11px;font-weight:850;background:var(--soft);color:var(--accent)}.chip.quiet{background:var(--track);color:var(--quiet)}.lead{margin:9px 0 13px;color:var(--muted);font-size:13px;min-height:36px}.card-source{font-size:11px;font-weight:800;color:var(--accent);text-decoration:none}.card-source:hover,.item:hover strong{text-decoration:underline}.rows{border-top:1px solid var(--line);margin-top:13px}.item{display:block;text-decoration:none;padding:11px 0;border-bottom:1px solid var(--line)}.item:last-child{border-bottom:0}.item strong{display:block;font-size:12px;color:var(--fg)}.item .value{display:block;font-size:13px;color:var(--accent);font-weight:800;margin-top:2px}.item .detail{display:block;color:var(--muted);font-size:11px;margin-top:4px}.bar-chart{margin-top:10px;padding-top:14px;border-top:1px solid var(--line)}.bar-chart h4{font-size:12px;font-weight:750;color:var(--muted);margin:0 0 10px}.barline{display:grid;grid-template-columns:90px minmax(0,1fr) 58px;align-items:center;gap:8px;margin:7px 0;font-size:11px}.barlabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bartrack{height:11px;border-radius:100px;background:var(--track);overflow:hidden}.barfill{height:100%;background:var(--accent);border-radius:100px}.barvalue{text-align:right;font-weight:850;font-variant-numeric:tabular-nums}.footer{margin-top:23px;color:var(--muted);font-size:12px}.footer p{margin:5px 0}.footer a{color:var(--accent);font-weight:800}button:focus-visible,a:focus-visible{outline:3px solid #ee9b45;outline-offset:3px}@media(max-width:760px){.cards{grid-template-columns:1fr}.mast{padding:21px;flex-direction:column}.stamp{text-align:left;min-width:0}.stamp time{display:inline;margin-right:10px}.metrics{gap:8px}.metric{padding:13px}.metric b{font-size:24px}.metric span{font-size:10px}.section-top{margin-top:20px}.lead{min-height:0}}@media(max-width:440px){main{padding:10px 10px 34px}.mast{border-radius:16px;padding:18px}.metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.metric{padding:10px 9px;border-radius:11px}.metric b{font-size:23px}.card{padding:15px;border-radius:14px}.card h3{font-size:15px}.datebox{min-width:100%}.barline{grid-template-columns:82px minmax(0,1fr) 58px}}@media(prefers-color-scheme:dark){:root{--bg:#0c181e;--fg:#e6f0f2;--muted:#a5bdc4;--surface:#172730;--line:#31505b;--accent:#69dcc7;--deep:#12252d;--soft:#1b413d;--alert:#ffd399;--alert-bg:#453221;--quiet:#b2bec4;--track:#2b424b;--shadow:none}.mast{border:1px solid #31505b}.day{background:#214f45;color:#b2f5e0}.card-source{color:var(--accent)}}.item strong{font-size:14px;line-height:1.4}.item .value{font-size:14px;line-height:1.45}.item .detail{font-size:12px;line-height:1.5}.card-source{font-size:12px}.spotlight{margin:0 0 22px}.spot-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 0 11px}.spot-head h2{margin:0;font-size:19px;letter-spacing:-.025em}.spot-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.spot-card{display:block;position:relative;padding:16px 16px 16px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px;text-decoration:none;min-width:0;box-shadow:var(--shadow)}.spot-card:hover{border-color:var(--accent);border-left-width:4px}.spot-card:first-child{border-left-color:#d49a4c}.spot-rank{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);font-weight:850;margin-bottom:6px}.spot-name{display:block;font-size:15px;line-height:1.3;font-weight:850;overflow-wrap:anywhere}.spot-detail{display:block;font-size:13px;font-weight:750;color:var(--accent);margin-top:7px}@media(max-width:760px){.spot-grid{grid-template-columns:1fr}.spot-head{align-items:start;flex-direction:column;gap:2px}.spot-card{padding:13px 15px}.spot-name{font-size:14px}}</style></head><body><main><header class="mast"><div><div class="eyebrow" id="eyebrow"></div><h1 id="title"></h1><p id="subtitle"></p><p class="subtle" id="data-quality" style="margin-top:11px"></p></div><div class="stamp"><time id="run-date"></time><span class="day" id="day-label"></span></div></header><div class="metrics" id="metrics"></div><section class="spotlight" aria-label="Top three vehicles to contact"><div class="spot-head"><h2>Top three to contact</h2><span class="subtle">Ranked from Best 5 Overall. Confirm fees and availability before traveling.</span></div><div class="spot-grid" id="spot-grid"></div></section><div class="section-top"><h2>Dates to hold</h2><span class="subtle">Local-day countdowns</span></div><div class="rail" id="date-rail"></div><div class="subtle" id="date-note" style="margin-top:8px"></div><div class="controlbar"><h2 id="section-total"></h2><button class="filter" id="filter" aria-pressed="false">Only moved</button></div><section class="cards" id="cards" aria-label="Vehicle research sections"></section><footer class="footer"><p id="day-rule"></p><p id="status-rule"></p><p id="quality-rule"></p><p id="footer-link"></p></footer></main><script type="application/json" id="board-data">{
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>DMV Vehicle Radar</title><style>:root{color-scheme:light dark;--bg:#f4f7f8;--fg:#14242c;--muted:#60727b;--surface:#ffffff;--line:#dce5e7;--accent:#137b73;--deep:#193a45;--soft:#e6f5f2;--alert:#b95b22;--alert-bg:#fff1e5;--quiet:#6c7981;--track:#e5eeee;--shadow:0 12px 38px rgba(15,52,59,.06)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.47 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:inherit}main{max-width:1130px;margin:auto;padding:24px 20px 55px}.mast{background:var(--deep);color:white;border-radius:22px;padding:28px 30px;display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#b5d6d7;font-weight:800}.mast h1{font-size:clamp(26px,4vw,42px);line-height:1.05;margin:7px 0 9px;letter-spacing:-.04em}.mast p{margin:0;color:#c9dddf;max-width:560px}.stamp{text-align:right;min-width:170px}.stamp time{display:block;font-size:14px;font-weight:750;margin-bottom:11px}.day{display:inline-flex;border-radius:999px;padding:5px 14px;background:#dff6ec;color:#135d51;font-weight:800;letter-spacing:.02em}.subtle{font-size:12px;color:var(--muted)}.mast .subtle{color:#b6cfd2}.metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:16px 0 24px}.metric{background:var(--surface);padding:17px 19px;border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow)}.metric b{font-size:30px;font-weight:820;line-height:1.1;display:block;letter-spacing:-.035em}.metric span{font-size:12px;color:var(--muted);font-weight:650}.section-top{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:24px 0 12px}.section-top h2{margin:0;font-size:17px;letter-spacing:-.02em}.rail{display:flex;gap:11px;flex-wrap:wrap}.datebox{display:flex;flex:1;min-width:210px;gap:11px;align-items:center;border:1px solid var(--line);background:var(--surface);padding:13px;border-radius:15px;text-decoration:none}.datebox.urgent{border-color:#e0a06b;background:var(--alert-bg)}.countdown{font-size:20px;font-weight:850;min-width:56px;text-align:center;color:var(--accent)}.datebox.urgent .countdown{color:var(--alert)}.datebox strong{display:block;font-size:13px}.datebox .subtle{display:block}.controlbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:26px 0 12px}.controlbar h2{font-size:18px;margin:0}.filter{border:1px solid var(--accent);background:var(--surface);color:var(--accent);padding:9px 13px;border-radius:999px;font:inherit;font-weight:800;cursor:pointer}.filter[aria-pressed=true]{background:var(--accent);color:white}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow);min-width:0}.cardhead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.card h3{font-size:17px;line-height:1.25;letter-spacing:-.03em;margin:0}.chip{border-radius:999px;flex-shrink:0;padding:4px 9px;font-size:11px;font-weight:850;background:var(--soft);color:var(--accent)}.chip.quiet{background:var(--track);color:var(--quiet)}.lead{margin:9px 0 13px;color:var(--muted);font-size:13px;min-height:36px}.card-source{font-size:11px;font-weight:800;color:var(--accent);text-decoration:none}.card-source:hover,.item:hover strong{text-decoration:underline}.rows{border-top:1px solid var(--line);margin-top:13px}.item{display:block;text-decoration:none;padding:11px 0;border-bottom:1px solid var(--line)}.item:last-child{border-bottom:0}.item strong{display:block;font-size:12px;color:var(--fg)}.item .value{display:block;font-size:13px;color:var(--accent);font-weight:800;margin-top:2px}.item .detail{display:block;color:var(--muted);font-size:11px;margin-top:4px}.bar-chart{margin-top:10px;padding-top:14px;border-top:1px solid var(--line)}.bar-chart h4{font-size:12px;font-weight:750;color:var(--muted);margin:0 0 10px}.barline{display:grid;grid-template-columns:90px minmax(0,1fr) 58px;align-items:center;gap:8px;margin:7px 0;font-size:11px}.barlabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bartrack{height:11px;border-radius:100px;background:var(--track);overflow:hidden}.barfill{height:100%;background:var(--accent);border-radius:100px}.barvalue{text-align:right;font-weight:850;font-variant-numeric:tabular-nums}.footer{margin-top:23px;color:var(--muted);font-size:12px}.footer p{margin:5px 0}.footer a{color:var(--accent);font-weight:800}button:focus-visible,a:focus-visible{outline:3px solid #ee9b45;outline-offset:3px}@media(max-width:760px){.cards{grid-template-columns:1fr}.mast{padding:21px;flex-direction:column}.stamp{text-align:left;min-width:0}.stamp time{display:inline;margin-right:10px}.metrics{gap:8px}.metric{padding:13px}.metric b{font-size:24px}.metric span{font-size:10px}.section-top{margin-top:20px}.lead{min-height:0}}@media(max-width:440px){main{padding:10px 10px 34px}.mast{border-radius:16px;padding:18px}.metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.metric{padding:10px 9px;border-radius:11px}.metric b{font-size:23px}.card{padding:15px;border-radius:14px}.card h3{font-size:15px}.datebox{min-width:100%}.barline{grid-template-columns:82px minmax(0,1fr) 58px}}@media(prefers-color-scheme:dark){:root{--bg:#0c181e;--fg:#e6f0f2;--muted:#a5bdc4;--surface:#172730;--line:#31505b;--accent:#69dcc7;--deep:#12252d;--soft:#1b413d;--alert:#ffd399;--alert-bg:#453221;--quiet:#b2bec4;--track:#2b424b;--shadow:none}.mast{border:1px solid #31505b}.day{background:#214f45;color:#b2f5e0}.card-source{color:var(--accent)}}.item strong{font-size:14px;line-height:1.4}.item .value{font-size:14px;line-height:1.45}.item .detail{font-size:12px;line-height:1.5}.card-source{font-size:12px}.spotlight{margin:0 0 22px}.spot-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 0 11px}.spot-head h2{margin:0;font-size:19px;letter-spacing:-.025em}.spot-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.spot-card{display:block;position:relative;padding:16px 16px 16px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px;text-decoration:none;min-width:0;box-shadow:var(--shadow)}.spot-card:hover{border-color:var(--accent);border-left-width:4px}.spot-card:first-child{border-left-color:#d49a4c}.spot-rank{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);font-weight:850;margin-bottom:6px}.spot-name{display:block;font-size:15px;line-height:1.3;font-weight:850;overflow-wrap:anywhere}.spot-detail{display:block;font-size:13px;font-weight:750;color:var(--accent);margin-top:7px}@media(max-width:760px){.spot-grid{grid-template-columns:1fr}.spot-head{align-items:start;flex-direction:column;gap:2px}.spot-card{padding:13px 15px}.spot-name{font-size:14px}}</style></head><body><main><header class="mast"><div><div class="eyebrow" id="eyebrow"></div><h1 id="title"></h1><p id="subtitle"></p><p class="subtle" id="data-quality" style="margin-top:11px"></p></div><div class="stamp"><time id="run-date"></time><span class="day" id="day-label"></span></div></header><div class="metrics" id="metrics"></div><section class="spotlight" aria-label="Top three vehicles to contact"><div class="spot-head"><h2>Top three to contact</h2><span class="subtle">Ranked from Best 5 Overall. Confirm fees and availability before traveling.</span></div><div class="spot-grid" id="spot-grid"></div></section><div class="section-top"><h2>Dates to hold</h2><span class="subtle">Local-day countdowns</span></div><div class="rail" id="date-rail"></div><div class="subtle" id="date-note" style="margin-top:8px"></div><div class="controlbar"><h2 id="section-total"></h2><button class="filter" id="filter" aria-pressed="false">Only moved</button></div><section class="cards" id="cards" aria-label="Vehicle research sections"></section><footer class="footer"><p id="day-rule"></p><p id="status-rule"></p><p id="quality-rule"></p><p id="footer-link"></p></footer></main><script type="application/json" id="board-data">
+{
   "meta": {
     "title": "DMV Vehicle Radar",
     "subtitle": "Daily Car Dealer Scan, up to 50 miles from ZIP 20019",
-    "runDate": "2026-11-22",
-    "asOf": "November 22: no individual listings accessible for fresh verification, previous RAV4s on hold",
-    "sourceLabel": "Cars.com and Autotrader category search, CarGurus individual access attempts, Notion historical tracker"
+    "runDate": "2026-11-23",
+    "asOf": "November 23: dealer fee disclosure and additional search-page leads, zero purchase-cleared individual listings",
+    "sourceLabel": "A & B direct inventory, IAD direct fee disclosure, Cars.com category results, Notion tracker"
   },
   "notes": {
-    "dayRule": "Compared to November 21 dashboard: both previous RAV4 detail URLs inaccessible today. This is a verification hold, not proof of sale.",
+    "dayRule": "Compared with November 22: still zero fully cleared listings. IAD fee and A & B dealer inventory documented. Cached marketplace entries are research leads only.",
     "statusRule": "Moved means verified lineup or price/fee differences from the previous dashboard, not merely first-time population. Quiet means no meaningful verified change.",
     "dateRule": "Dates are planning holds, not seller deadlines. Countdowns use your device's local date and passed dates are hidden.",
-    "qualityRule": "No independently live-verified individual listings, no title or fee clearance, no seller confirmation. Notion read only.",
+    "qualityRule": "No fully cleared individual listing, title/history or fee-inclusive price. Notion read only.",
     "thresholds": {
       "quietMax": 1,
       "normalMax": 3
@@ -20,7 +21,7 @@
   },
   "metrics": [
     {
-      "label": "Individually verified today",
+      "label": "Fully cleared today",
       "value": "0"
     },
     {
@@ -28,8 +29,8 @@
       "value": "0"
     },
     {
-      "label": "Seller-confirmed",
-      "value": "0"
+      "label": "IAD mandatory fee",
+      "value": "$995"
     }
   ],
   "holds": [],
@@ -37,18 +38,18 @@
     {
       "id": "tier-1",
       "title": "Tier 1. Most Desirable",
-      "status": "Moved",
-      "lead": "Previous Alexandria and Chantilly RAV4s on verification hold, individual URLs inaccessible today.",
+      "status": "Quiet",
+      "lead": "Alexandria 2012 RAV4, $8,800 and 113,750 miles on search page only; not cleared.",
       "source": {
-        "label": "Current search page, not a verified individual listing",
-        "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+        "label": "Research page, not verified individual vehicle",
+        "url": "https://www.cars.com/shopping/toyota-rav4/berwyn_heights-md/price-under-10000/"
       },
       "rows": [
         {
-          "label": "RAV4 verification hold",
-          "value": "0 newly verified",
-          "detail": "Search-page inventory may be cached. No individual vehicle is recommended until its current ad, history and mandatory fees are verified.",
-          "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+          "label": "RAV4 lead",
+          "value": "0 cleared",
+          "detail": "Price discrepancy, fees and history unresolved",
+          "url": "https://www.cars.com/shopping/toyota-rav4/berwyn_heights-md/price-under-10000/"
         }
       ]
     },
@@ -56,17 +57,17 @@
       "id": "tier-2",
       "title": "Tier 2. Most Practical",
       "status": "Quiet",
-      "lead": "No individually verified practical vehicle today.",
+      "lead": "A & B 2006 CR-V LX AWD $5,995 and 134,227 miles; individual link returned 404.",
       "source": {
-        "label": "Current search page, not a verified individual listing",
-        "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+        "label": "Research page, not verified individual vehicle",
+        "url": "https://www.abautoco.com/suvs-for-sale-b100037"
       },
       "rows": [
         {
-          "label": "Tier 2 verification hold",
+          "label": "CR-V lead",
           "value": "0 cleared",
-          "detail": "Search-page inventory may be cached. No individual vehicle is recommended until its current ad, history and mandatory fees are verified.",
-          "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+          "detail": "Individual listing unavailable; fees and title unknown",
+          "url": "https://www.abautoco.com/suvs-for-sale-b100037"
         }
       ]
     },
@@ -74,53 +75,53 @@
       "id": "tier-3",
       "title": "Tier 3. Most Affordable",
       "status": "Quiet",
-      "lead": "No cash vehicle cleared individual listing and title/fee standards.",
+      "lead": "No cash-buy vehicle passed verification.",
       "source": {
-        "label": "Current search page, not a verified individual listing",
-        "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+        "label": "Research page, not verified individual vehicle",
+        "url": "https://www.abautoco.com/"
       },
       "rows": [
         {
-          "label": "Tier 3 verification hold",
+          "label": "Cash tier",
           "value": "0 cleared",
-          "detail": "Search-page inventory may be cached. No individual vehicle is recommended until its current ad, history and mandatory fees are verified.",
-          "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+          "detail": "No qualifying individual listing",
+          "url": "https://www.abautoco.com/"
         }
       ]
     },
     {
       "id": "best-5",
       "title": "Best 5 Overall",
-      "status": "Moved",
-      "lead": "No reliable live-ranked Top 5 today.",
+      "status": "Quiet",
+      "lead": "No fully verified current ranking.",
       "source": {
-        "label": "Current search page, not a verified individual listing",
-        "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+        "label": "Research page, not verified individual vehicle",
+        "url": "https://www.cars.com/shopping/toyota-rav4/berwyn_heights-md/price-under-10000/"
       },
       "rows": [
         {
-          "label": "Ranking withheld",
-          "value": "No current ranking",
-          "detail": "Search-page inventory may be cached. No individual vehicle is recommended until its current ad, history and mandatory fees are verified.",
-          "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+          "label": "Ranking",
+          "value": "0 cleared",
+          "detail": "No purchase-cleared vehicles",
+          "url": "https://www.cars.com/shopping/toyota-rav4/berwyn_heights-md/price-under-10000/"
         }
       ]
     },
     {
       "id": "saturday-window",
       "title": "Saturday Window Shop",
-      "status": "Moved",
-      "lead": "No travel-ready stops; seller verification required.",
+      "status": "Quiet",
+      "lead": "No travel-ready November 28 route; Notion page remains outdated.",
       "source": {
-        "label": "Current search page, not a verified individual listing",
-        "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+        "label": "Research page, not verified individual vehicle",
+        "url": "https://app.notion.com/p/3c8f5cf121bb8111a489e50bd8970b35"
       },
       "rows": [
         {
-          "label": "Saturday route withheld",
-          "value": "No confirmed stops",
-          "detail": "Search-page inventory may be cached. No individual vehicle is recommended until its current ad, history and mandatory fees are verified.",
-          "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+          "label": "Route",
+          "value": "0 cleared",
+          "detail": "No seller-confirmed stops",
+          "url": "https://app.notion.com/p/3c8f5cf121bb8111a489e50bd8970b35"
         }
       ]
     },
@@ -128,23 +129,24 @@
       "id": "daily-changes",
       "title": "Daily Changes",
       "status": "Moved",
-      "lead": "Two previously accessible RAV4 URLs inaccessible today, not confirmed sold. No Notion writes.",
+      "lead": "IAD discloses $995 mandatory used-car reconditioning fee; no confirmed lineup changes.",
       "source": {
-        "label": "Current search page, not a verified individual listing",
-        "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+        "label": "Research page, not verified individual vehicle",
+        "url": "https://www.iadauto.com/used-inventory/vehicle-specials.htm"
       },
       "rows": [
         {
-          "label": "November 22 access change",
-          "value": "2 prior individual URLs inaccessible",
-          "detail": "Search-page inventory may be cached. No individual vehicle is recommended until its current ad, history and mandatory fees are verified.",
-          "url": "https://www.cars.com/shopping/toyota-rav4/washington-dc/price-under-10000/"
+          "label": "Fee disclosure",
+          "value": "$995 fee",
+          "detail": "Mandatory reconditioning fee: $995",
+          "url": "https://www.iadauto.com/used-inventory/vehicle-specials.htm"
         }
       ]
     }
   ],
   "footer": {
-    "label": "November 22 full report",
-    "url": "https://github.com/AlphaLewis/ChatGPT/blob/main/vehicle-dashboard/reports/2026-11-22.md"
+    "label": "November 23 full report",
+    "url": "https://github.com/AlphaLewis/ChatGPT/blob/main/vehicle-dashboard/reports/2026-11-23.md"
   }
-}</script></body></html>
+}
+</script></body></html>
